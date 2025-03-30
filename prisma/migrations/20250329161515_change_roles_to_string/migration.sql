@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Resource" ALTER COLUMN "roles" SET NOT NULL,
+ALTER COLUMN "roles" SET DATA TYPE TEXT;
